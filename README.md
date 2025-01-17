@@ -1,19 +1,21 @@
-## Hello there 👋
+## 📖 𝙰𝚋𝚘𝚞𝚝 m𝚎
 
-Thanks for stopping by! My name is Andrew, and I've been a developer for over 8 years!
+Thanks for stopping by! My name is Andrew, and I've been a developer for over 8 years! In that time I've worked mostly with front-end codebases ranging from vanilla to Angular, React, and Vue! I've built a lot of things for clients over the years, and I love getting challenging work. 
 
+Outside of code I am also an avid gamer, and I love lifting weights.
 
-<!--
-**agriffi10/agriffi10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## ⬆ 𝚆𝚑𝚊𝚝 𝙸'𝚖 𝚞𝚙 𝚝𝚘
 
-Here are some ideas to get you started:
+Learning what it takes to be a higher level engineer. Anybody can code, and get good at coding, but what does it take to be a leader? What does being a good leader even mean? I've been asking myself this for a while now. I'm taking steps to level up my career.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+If you'd like to learn a little bit more about my day job, checkout my LinkedIn link on my GitHub profile!
+
+## 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
+
+You can reach me on LinkedIn, the link is on my GitHub profile.
+
+## :raising_hand: Ask me about
+
+- CrossFit or HIIT workouts :runner:
+- Coffee :coffee:
+- Videogames :video_game:
