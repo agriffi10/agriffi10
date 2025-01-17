@@ -16,6 +16,8 @@ If you'd like to learn a little bit more about my day job, checkout my LinkedIn 
 
 ### Side Projects
 
+A few bits and odds I've worked on either to learn something or because of a technical interview.
+
 - [React Chess Game](https://rococo-bavarois-680f44.netlify.app/) - This was something I did as a quick technical assessment, but I really enjoyed making it so I kept it around. You can view the code [here](https://github.com/agriffi10/react-chess?tab=readme-ov-file).
 
 ### Professional Work
