@@ -16,7 +16,7 @@ If you'd like to learn a little bit more about my day job, checkout my LinkedIn 
 
 ### Side Projects
 
-- [React Chess Game](https://rococo-bavarois-680f44.netlify.app/) - This was something I did as a quick technical assessment, but I really enjoyed making it so I kept it around. You can checkout the code [here](https://github.com/agriffi10/react-chess?tab=readme-ov-file).
+- [React Chess Game](https://rococo-bavarois-680f44.netlify.app/) - This was something I did as a quick technical assessment, but I really enjoyed making it so I kept it around. You can view the code [here](https://github.com/agriffi10/react-chess?tab=readme-ov-file).
 
 ### Professional Work
 
