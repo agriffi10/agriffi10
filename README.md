@@ -1,6 +1,7 @@
-## Hi there 👋
+## Hello there 👋
 
-Test Edit
+Thanks for stopping by! My name is Andrew, and I've been a developer for over 8 years!
+
 
 <!--
 **agriffi10/agriffi10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
