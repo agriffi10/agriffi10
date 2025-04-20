@@ -4,10 +4,6 @@ Thanks for stopping by! My name is Andrew, and I've been a developer for over 8 
 
 Outside of code I am also an avid gamer, and I love lifting weights.
 
-### Getting Started
-
-### Contributing
-
 ## ⬆ 𝚆𝚑𝚊𝚝 𝙸'𝚖 𝚞𝚙 𝚝𝚘
 
 Learning what it takes to be a higher level engineer. Anybody can code, and get good at coding, but what does it take to be a leader? What does being a good leader even mean? I've been asking myself this for a while now. I'm taking steps to level up my career.
