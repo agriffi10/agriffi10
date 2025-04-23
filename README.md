@@ -16,9 +16,9 @@ A few bits and odds I've worked on either to learn something or because of a tec
 
 #### Word Game
 
-This is a clone of a popular word game! It's built with Vite + React + TypeScript. It uses local files and localStorage to operate, so it's not as robust as the word game everyone loves. It uses a Neobrutalist art style, and I added a few features to make the game more accessbile.
-
 [Live Site](https://agriffith-word-game.netlify.app/) | [Codebase](https://github.com/agriffi10/word-game-clone)
+
+This is a clone of a popular word game! It's built with Vite + React + TypeScript. It uses local files and localStorage to operate, so it's not as robust as the word game everyone loves. It uses a Neobrutalist art style, and I added a few features to make the game more accessbile.
 
 ## 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
 
