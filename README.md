@@ -8,7 +8,7 @@ Outside of code I am also an avid gamer, and I love lifting weights.
 
 Learning what it takes to be a higher level engineer. Anybody can code, and get good at coding, but what does it take to be a leader? What does being a good leader even mean? I've been asking myself this for a while now. I'm taking steps to level up my career.
 
-If you'd like to learn a little bit more about my day job, checkout my LinkedIn link on my GitHub profile!
+If you'd like to learn a little bit more about my profession work, checkout my LinkedIn!
 
 ### Side Projects
 
