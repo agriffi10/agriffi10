@@ -1,31 +1,43 @@
-## 📖 𝙰𝚋𝚘𝚞𝚝 m𝚎
+## 👋 About me
 
-Thanks for stopping by! My name is Andrew, and I've been a developer for over 8 years! In that time I've worked mostly with front-end codebases ranging from vanilla to Angular, React, and Vue! I've built a lot of things for clients over the years, and I love getting challenging work. 
+Hey, I'm Andrew. I've spent 10+ years in software and worn a lot of hats along the way — I started out as a frontend engineer, got deep into accessibility, and over time grew into platform and data work. I write SDKs, infrastructure, and the data pipelines that everything else runs on.
 
-Outside of code I am also an avid gamer, and I love lifting weights.
+These days I mostly build cloud-native data platforms and developer tooling in AWS. The work I like best is owning a problem end to end. Scoping it, shaping the architecture, shipping it, and watching people actually use it. That frontend background still sneaks in whenever I'm thinking about how a platform feels to the people building on it.
 
-## ⬆ 𝚆𝚑𝚊𝚝 𝙸'𝚖 𝚞𝚙 𝚝𝚘
+Fun fact: my degree is a BFA in Computer Game Design, so I came into all this from a pretty unusual angle.
 
-Learning what it takes to be a higher level engineer. Anybody can code, and get good at coding, but what does it take to be a leader? What does being a good leader even mean? I've been asking myself this for a while now. I'm taking steps to level up my career.
+## ⬆ What I'm up to
 
-If you'd like to learn a little bit more about my profession work, checkout my LinkedIn!
+Leaning further into platform and data engineering and building developer tools, internal platforms, and the AI/LLM infrastructure space. I'm also tinkering with open source on the side (see below).
 
-### Side Projects
+## 🛠 Projects
 
-A few bits and odds I've worked on either to learn something or because of a technical interview.
+### Data Analysis Tool - a serverless, multi-tenant data workspace on AWS
+[Live Site](https://d1kbh4bnvh1je8.cloudfront.net)
 
-#### Word Game
+Codebase walkthrough available upon request.
 
-[Live Site](https://agriffith-word-game.netlify.app/) | [Codebase](https://github.com/agriffi10/word-game-clone)
+A web portal where authenticated users bring their own data, manage it, and query it with SQL all in the browser, with no backend server. A React + TypeScript SPA talks directly to AWS using short-lived, scoped credentials.
 
-This is a clone of a popular word game! It's built with Vite + React + TypeScript. It uses local files and localStorage to operate, so it's not as robust as the word game everyone loves. It uses a Neobrutalist art style, and I added a few features to make the game more accessbile.
+Users can:
 
-## 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
+- **Upload & manage files** in their own private S3 space — download, move, rename, copy, delete, and organize into folders, with a familiar filesystem-style UX.
+- **Define tables over their data** — register schemas in the Glue Data Catalog and create views directly from the app.
+- **Query with SQL through Amazon Athena** — an in-app query workspace (Monaco editor, schema browser, multi-tab, database switcher) runs interactive queries and saves results back to their own files.
 
-You can reach me on LinkedIn, the link is on my GitHub profile.
+Every user is confined to their own data at the IAM layer, not in app code. A Cognito Identity Pool stamps a verified `username` principal tag server-side (ABAC), and a single shared IAM role scopes S3 prefixes, Glue databases/tables, and Athena results to `${aws:PrincipalTag/username}` so tenancy can't be spoofed by the client. Lake Formation registers the user-space bucket in hybrid mode to extend the same model to the analytics catalog.
 
-## :raising_hand: Ask me about
+The entire stack, auth, storage, analytics, and per-user IAM is provisioned with OpenTofu and shipped through GitHub Actions via OIDC.
 
-- CrossFit or HIIT workouts :runner:
-- Coffee :coffee:
-- Videogames :video_game:
+**Stack:** React 18 · Vite · TypeScript (strict) · TanStack Query · AWS SDK v3 · Cognito/Amplify · Athena + Glue + Lake Formation · OpenTofu · GitHub Actions
+
+## 📫 How to reach me
+
+Find me on LinkedIn! The link is on my GitHub profile.
+
+## 🙋 Ask me about
+
+- AWS & infrastructure-as-code ☁️
+- Developer tooling & observability 🔎
+- Video Games 🎮
+- Coffee ☕
